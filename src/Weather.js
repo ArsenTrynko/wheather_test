@@ -40,14 +40,7 @@ export default function Weather() {
   }, 500)
 
 
-    if (state.isLoaded === false || state.city.length === 0) {
-      return (
-          <div>
-            <input className="input" onChange={getWeather}/>
-            <p>Please enter city name</p>
-          </div>
-      )
-    }
+
 
     return (
       <div>
